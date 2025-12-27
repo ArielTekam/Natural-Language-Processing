@@ -1,0 +1,12 @@
+{
+  "input": "news.txt.gz",
+  "split_mode": "line",
+  "min_chars": 30,
+  "limit": 2000,
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "normalize": true,
+  "batch_size": 64,
+  "index_type": "IP",
+  "dim": 384,
+  "count": 2000
+}
